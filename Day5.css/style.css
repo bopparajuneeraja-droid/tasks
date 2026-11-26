@@ -1,0 +1,113 @@
+/* *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.container1{
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    transform: rotate(45deg);
+}
+
+.container2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: translateY(100px);
+}
+
+.container3{
+    height: 200px;
+    width: 200px;
+    background-color:greenyellow;
+    transform: translateX(-100px);
+}
+
+.container4{
+    height: 200px;
+    width: 200px;
+    background-color:purple;
+    transform: translate(-100px);
+}
+
+
+.container5{
+    height: 200px;
+    width: 200px;
+    background-color:maroon;
+    transform: scale(1);
+}
+
+.container6{
+    height: 200px;
+    width: 200px;
+    background-color:palevioletred;
+    transform: skew(135deg);
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    transition-duration: 5s;
+}
+
+.container1:hover{
+    background-color: blue;
+    transform: rotate(45deg);
+    box-shadow: 10px 10px 10px red;
+
+
+}
+
+.container2:hover{
+    background-color:greenyellow;
+    transform: translateY(100px);
+
+}
+
+.container3:hover{
+    background-color:plum;
+    transform: translateX(100px);
+
+}
+
+.container4:hover{
+    background-color:red;
+    transform: translate(100px);
+
+}
+
+.container5:hover{
+    background-color:purple;
+    transform: scale(1.5);
+
+} 
+
+.container6:hover{
+    background-color:yellow;
+    transform: skew(45deg);
+
+} 

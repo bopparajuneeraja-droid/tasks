@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    gap: 30px; 
+    flex-wrap: wrap-reverse;
+    flex-direction: row; 
+    flex-direction: column; 
+    flex-direction: row-reverse; 
+    flex-direction: column-reverse; 
+    justify-content: center;
+    align-items: center; 
+} 
+
+.child-1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.child-2{
+    height: 100px;
+    width: 100px;
+    background-color:olive;
+}
+
+.child-3{
+    height: 100px;
+    width: 100px;
+    background-color: mediumvioletred;
+} 

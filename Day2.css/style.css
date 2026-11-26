@@ -1,0 +1,37 @@
+/* .container{
+    color:red;
+    background-color:blue;
+    height:100px;
+    width:100px;
+} */
+
+h1{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+    font-weight:700;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px blue;
+}
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    height: 500px;
+    width:500px;
+    background-color:red;
+    background-image:https://media.istockphoto.com/id/1187393616/vector/butterfly-colorful-illustration-vector-template.jpg?s=1024x1024&w=is&k=20&c=13wTUos4F9UEejtabLXlvBd9nEf8JLj4I2WHSJq1g30= ;
+    background-repeate;
+    background-size:cover;
+    background-position:center;
+
+}; */
